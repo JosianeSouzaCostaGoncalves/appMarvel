@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.appmarvel.view.ui.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragmentNav" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragmentNav"
+            app:destination="@id/homeFragmentNav" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragmentNav"
+        android:name="com.example.appmarvel.view.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_favoriteFragment"
+            app:destination="@id/favoriteFragmentNav" />
+        <action
+            android:id="@+id/action_homeFragmentNav_self"
+            app:destination="@id/homeFragmentNav" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragmentNav"
+        android:name="com.example.appmarvel.view.ui.fragment.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoriteFragmentNav_to_homeFragmentNav"
+            app:destination="@id/homeFragmentNav" />
+    </fragment>
+</navigation>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AppMarvel</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- Home -->
+    <string name="tv_search_home">Pesquise um personagem</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favoritos</string>
+
+
+    <!-- Details -->
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae cursus ex, sed molestie diam. Vestibulum dictum est vitae odio tincidunt auctor. Ut risus lorem, pellentesque sed tellus non, mattis aliquam ex. Curabitur porta et lectus non lacinia. Aliquam efficitur vulputate nibh, non gravida justo.</string>
+    <string name="name_hero_details">Heroi Marvel</string>
+    <string name="erro_conexao">Erro de conexão com a internet.</string>
+    <string name="erro_conversao">Falha na conversão dos dados.</string>
+    <string name="description_empty">Este Heroi não possui descrição.</string>
+
+</resources>
