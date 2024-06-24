@@ -24,7 +24,7 @@
 
   ## Descrição dos metodos:
   
-      •	1º ->Criar as telas no xml e as classes, fazer a navegação entre elas.
+      •	1º -> Criar as telas no xml e as classes, fazer a navegação entre elas.
 
       •	2º -> Criar e usar um mock e criar uma estrutura de arquitetura para que fosse possível ver as listas e recylcerView funcionando dentro da view.
       
@@ -37,4 +37,4 @@
       •	4º -> Depois que eu tinha a lista de personagens no aplicativo, comecei a fazer a lógica para conseguir pesquisar um personagem na lista.
           (Nessa parte, após pesquisar um personagem específico e o carregamento dele, foi necessário criar um botão para recarregar a lista novamente, pois ao apagar o nome e pesquisar novamente não estava recarregando a lista completa de personagem.
           
-      •	5º ->Para a tela de favoritos foi necessario criar uma lista de vazia que era populada com base se o personagem foi favoritado e esta lista e salva no banco de dados.
+      •	5º -> Para a tela de favoritos foi necessario criar uma lista de vazia que era populada com base se o personagem foi favoritado e esta lista e salva no banco de dados.
